@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,7 +11,7 @@ body {
 
 /*? header */
 header {
-    background: orange;
+
     background: linear-gradient(180deg, rgba(253, 156, 29, 0.89) 8%, rgba(241,241,241,1) 100%);
     display: flex;
     flex-direction: column;
@@ -66,13 +66,7 @@ header p {
     width: 100%;
 }
 
-header i{
-    color: rgba(255, 255, 255, 0.849);
-    cursor: pointer;
-}
-header i:hover{
-    color: orange;
-}
+
 
 /*? main */
 .main-container {
@@ -136,16 +130,13 @@ header i:hover{
     opacity: 1;
     transition: bottom 1s ease-in;
 }
-.socialmedia1{
-        gap: 2rem;
-        display: flex;
-}
+
 
 /*? footer */
 
 footer {
     background: orange;
-background: linear-gradient orange;
+    background: linear-gradient orange;
     text-align: center;
     padding: 2rem;
     color: rgb(9, 8, 8);
